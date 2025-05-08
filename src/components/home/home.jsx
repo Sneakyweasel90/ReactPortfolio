@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Home.css';
 import mountains from '../../assets/mountains.jpeg';
@@ -24,7 +25,10 @@ function Home() {
                 <div className="text-center">
                     <h2>About Me</h2>
                     <p className="w-75 mx-auto">
-                        I'm passionate about building beautiful and functional web experiences using React and modern technologies.
+                        I joined the Canadian Military at the age of 18 and completed 14 and a half years as an electrician. 
+                        Completing multiple tours as well as becoming an instructor for 3 years. 
+                        Recognizing the military was not for me I decided to take my passion for computers to the next level and complete a programming course. 
+                        I graduated New Brunswick Community College in 2025 and currently having fun with learning new ideas and learning more every day.
                     </p>
                 </div>
             </section>
@@ -33,8 +37,7 @@ function Home() {
             <section className="section projects-section d-flex justify-content-center align-items-center text-white bg-dark">
                 <div className="text-center">
                     <h2>Projects</h2>
-                    <p>Here are a few cool things I've built recently.</p>
-                    {/* Add project previews or cards later */}
+                    <p>Click this <Link to='/projects'>link</Link> to see all my projects!</p>
                 </div>
             </section>
 
