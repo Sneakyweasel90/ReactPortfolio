@@ -16,7 +16,7 @@ function Home() {
             >
                 <div className="text-center">
                     <h1 className="display-3">Hi, I'm Neil Mannion</h1>
-                    <p className="lead">Frontend Developer | React | UI/UX</p>
+                    <p className="lead">Programmer Analyst | Software Developer</p>
                 </div>
             </section>
 
@@ -38,6 +38,14 @@ function Home() {
                 <div className="text-center">
                     <h2>Projects</h2>
                     <p>Click this <Link to='/projects'>link</Link> to see all my projects!</p>
+                </div>
+            </section>
+
+            {/* API Section */}
+            <section className="section api-section bg-light d-flex justify-content-center align-items-center">
+                <div className="text-center">
+                    <h2>API Hits</h2>
+                    <p>REST API <Link to='/apiHit'>examples</Link> </p>
                 </div>
             </section>
 

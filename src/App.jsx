@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from '@components/navbar/navbar.jsx';
 import Home from '@components/home/home.jsx';
 import Projects from '@components/projects/projects.jsx';
+import APIHit from '@components/apiHit/apiHit.jsx';
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 
@@ -14,6 +15,7 @@ function App() {
             <Route path="/" element={<Navigate to="/home" replace />} />
             <Route path='/home' element={<Home />} />
             <Route path='/projects' element={<Projects />} />
+            <Route path='/apiHit' element={<APIHit />} />
         </Routes>
       </BrowserRouter>
     </div>
